@@ -6,7 +6,7 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println("Sea Battle 0.001");
         int[][] seaBattle = new int[12][12];
-        int four_ship_vert_head = 0;//координаты корабля по верт.
+        int four_ship_vert_head = 0;//координаты корабля по верт. проверка 123
         int four_ship_horiz_head = 0;//координаты корабля по горизонт
         int summ = 0;//сумма для проверки возможности установки корабля,
         int dice = ((int) (Math.random() * 100));
