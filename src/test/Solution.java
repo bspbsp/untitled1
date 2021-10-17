@@ -6,9 +6,9 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println("Sea Battle 0.001");
         int[][] seaBattle = new int[12][12];
-        int four_ship_vert_head = 0;//координаты корабля по верт. проверка 123
+        int four_ship_vert_head = 0;//координаты корабля по верт.
         int four_ship_horiz_head = 0;//координаты корабля по горизонт
-        int summ = 0;//сумма для проверки возможности установки корабля,
+        int summ = 0;//сумма для проверки возможности установки корабля, еще один тест
         int dice = ((int) (Math.random() * 100));
         // проверка и установка корабля 4 палубы
         if (dice < 50) {//случайно определяет будет ли корабль стоять вертикально или горизонтально
